@@ -27,16 +27,23 @@ A minimal Python script that connects to a locally running Ollama server and let
 
 ## Usage
 
-Run the script:
-```bash
-python chat.py
-```
+Run the script: ```bash python chat.py```
 
 Type your message and press Enter. Type `exit` or `quit` to end the session.
 
 
+### Modelfile
+
+A Modelfile is the blueprint to create and share customized models using Ollama.
+
+To create a new model from this, `ollama create oogway -f ./Modelfile`
+
+To utilize this model, `ollama run oogway`
+
+To remove this model (amongst other models you have in ollama), `ollama rm shi-fu`
+
+
 ## Todo
-Use a Modelfile to control configurations such as temperature, system prompt
 Design a neat frontend that streams
 Enable a say out loud tool
 Enable network accessibility to other devices
