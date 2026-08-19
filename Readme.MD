@@ -33,3 +33,10 @@ python chat.py
 ```
 
 Type your message and press Enter. Type `exit` or `quit` to end the session.
+
+
+## Todo
+Use a Modelfile to control configurations such as temperature, system prompt
+Design a neat frontend that streams
+Enable a say out loud tool
+Enable network accessibility to other devices
